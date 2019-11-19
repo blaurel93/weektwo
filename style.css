@@ -107,6 +107,19 @@ body {
 
 
 /*---------------- THE MAIN PICTURE CARD -----------------*/
+.rowonecontact {
+    margin-top: 30px;
+    color: white;
+}
+.rowtwocontact {
+    margin-top: 30px;
+    color: white;
+}
+.rowthreecontact {
+    margin-top: 30px;
+    color: white;
+}
+
 .paraone {
     text-align: center;
     color: white;
@@ -127,7 +140,9 @@ body {
 .navsearch {
     margin-right: 12%;
 }
-
+.nextbutton {
+    margin-top: 30px;
+}
 /* FOOOOOOTER */
 .whitebox {
     height: 50px;
