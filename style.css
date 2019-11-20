@@ -15,98 +15,10 @@ body {
 .container {
     font-family: 'Josefin Sans', sans-serif;
 }
-#cardone {
-    position: absolute;
-    top: 275px;
-    left:22%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    height: 400px;
-    transform-style: preserve-3d;
-    perspective: 600px;
-    transition: 0.5s;
-}
-#cardone .front {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-    transition: 0.5s;
-}
-#cardone:hover .front {
-    transform: rotateX(-180);
-}
-#cardone .back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.3s;
-}
-#cardone .back:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 100%;
-    height: 100%;
-    background: rgba(255,255,255,0.2);
-}
-#cardone:hover .back {
-    transform: rotateX(0deg);
-}
-#cardone .back .details {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
-#cardone .back .details h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
-    color: #fff;
-}
-#cardone .back .details h2 span {
-    color: #a7a7a7;
-    font-size: 16px;
-}
-.social-icons {
-    padding: 10px 0;
-}
-.social-icons a {
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    text-align: center;
-    background: #262626;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-.social-icons a .fa {
-    line-height: 36px;
-}
-.social-icons a:hover {
-    background: #e91e63;
 
-}
 .jumboleft {
     margin-top: 5px;
-    margin-left: 40%;
+    margin-left: 20%;
     color: white;
 }
 
@@ -166,7 +78,7 @@ footer {
     border-top: 5px;
     border-top: solid teal;
 }
-.imageone {
+.imageoneee {
     background-image: url(https://images.pexels.com/photos/1122868/pexels-photo-1122868.jpeg?cs=srgb&dl=action-adult-adventure-1122868.jpg&fm=jpg); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -175,7 +87,7 @@ footer {
     padding-right: 0 !important;
     padding-left: 0!important;
 }
-.imagetwo {
+.imagetwooo {
     background-image: url(https://images.pexels.com/photos/1040157/pexels-photo-1040157.jpeg?cs=srgb&dl=board-game-businessman-challenge-1040157.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -184,7 +96,7 @@ footer {
     padding-right: 0 !important;
     padding-left: 0!important;
 }
-.imagethree {
+.imagethreeee {
     background-image: url(https://images.pexels.com/photos/277052/pexels-photo-277052.jpeg?cs=srgb&dl=board-game-challenge-chess-277052.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -193,7 +105,7 @@ footer {
     padding-right: 0 !important;
     padding-left: 0!important;
 }
-.imagefour {
+.imagefourrr {
     background-image: url(https://images.pexels.com/photos/2265487/pexels-photo-2265487.jpeg?cs=srgb&dl=app-apple-business-2265487.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -202,7 +114,7 @@ footer {
     padding-right: 0 !important;
     padding-left: 0!important;
 }
-.imagefive {
+.imagefiveee {
     background-image: url(https://images.pexels.com/photos/635356/pexels-photo-635356.jpeg?cs=srgb&dl=fight-fist-hand-635356.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -220,3 +132,7 @@ footer {
     padding-left: 0 !important;
 
 }
+@media (max-width:600px) 
+    p{ 
+        color: red;
+    }
