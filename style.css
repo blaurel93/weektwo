@@ -20,7 +20,7 @@ body {
 
 .jumboleft {
     margin-top: 5px;
-    
+    width: auto;
     color: white;
 }
 
@@ -124,13 +124,31 @@ footer {
     width: 170px;
     padding-right: 0 !important;
     padding-left: 0!important;
+    position: relative;
 }
 .tealbox {
     width: 100%;
     text-align: center;
     background-color: teal;
-    margin-top: 48%;
+    bottom: 16px;
     padding-right: 0 !important;
     padding-left: 0 !important;
+    position: absolute;
 
 }
+.spacer {
+    margin-left: 20px;
+}
+/* media sizes */
+@media only screen and (max-width: 600px) {
+    .spacer {
+        margin: 20px 0;
+
+    }
+}
+@media only screen and (max-width: 400px) {
+    .row { 
+        text-align: center;
+    }
+}
+  
